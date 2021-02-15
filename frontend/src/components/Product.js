@@ -5,7 +5,7 @@ import Rating from "./Rating"
 
 const Product = ({ product }) => {
 
-  console.log("How many products : ", product._id)
+
 
   return (
     <Card className="my-3 p-3 rounded">

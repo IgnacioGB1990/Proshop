@@ -16,7 +16,7 @@ const HomeScreen = () => {
     dispatch(listProducts())
   }, [dispatch])
 
-  console.log("Where are our products", products)
+
 
   return (
     <>
