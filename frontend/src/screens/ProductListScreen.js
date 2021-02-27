@@ -70,6 +70,7 @@ const ProductListScreen = ({ history, match }) => {
                 <th>PRICE</th>
                 <th>CATEGORY</th>
                 <th>BRAND</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -90,7 +91,9 @@ const ProductListScreen = ({ history, match }) => {
                         <i className="fas fa-edit"></i>
                       </Button>
                     </LinkContainer>
-                    <Button variant="danger" className="btn-sm" onClick={() => deleteHandler(product._id)}>
+                    <Button variant="danger"
+                      className="btn-sm"
+                      onClick={() => deleteHandler(product._id)}>
                       <i className="fas fa-trash"></i>
                     </Button>
                   </td>

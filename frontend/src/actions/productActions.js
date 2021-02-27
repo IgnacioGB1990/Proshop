@@ -108,7 +108,7 @@ export const createProduct = () => async (dispatch, getState) => {
       type: PRODUCT_CREATE_FAIL,
       payload: error.response && error.response.data.message
         ? error.response.data.message
-        : error.message
+        : error.message,
     })
   }
 }
